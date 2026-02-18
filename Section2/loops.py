@@ -33,6 +33,13 @@
 # for i in my_dist.keys():
 #     print(my_dist.values())
 
+# for i in range(10):
+#     if i ==5:
+#         print("Hello")
+#         break
+#     print(i)
+
 for i in range(10):
     if i ==5:
-        print("Hello")
+        continue
+    print(i)
